@@ -23,3 +23,23 @@ cadeia ativos[3] = {"Notebooks", "Monitores", "Teclados"}
             escreva("3 - Encerrar Sistema\n")
             escreva("Escolha uma opção: ")
             leia(opcao)
+            escolha (opcao)
+            {
+                caso 1:
+                    escreva("\nLógica do relatório entrará aqui.\n")
+                    pare
+ 
+                caso 2:
+                    escreva("\nLógica do recebimento entrará aqui.\n")
+                    pare
+ 
+                caso 3:
+                    escreva("\nSistema encerrado.\n")
+                    pare
+ 
+                caso contrario:
+                    escreva("\nOpção inválida! Digite 1, 2 ou 3.\n")
+            }
+        }
+    }
+}
