@@ -12,3 +12,7 @@ cadeia ativos[3] = {"Notebooks", "Monitores", "Teclados"}
             {5, 10},   // Notebooks - abaixo da quantidade mínima
             {15, 10},  // Monitores
             {20, 15}   // Teclados
+        inteiro opcao = 0
+
+        // Mantém o sistema funcionando até escolher a opção 3
+        enquanto (opcao != 3)
