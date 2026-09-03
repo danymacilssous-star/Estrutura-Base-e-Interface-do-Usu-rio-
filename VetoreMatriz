@@ -1,0 +1,14 @@
+programa {
+  funcao inicio() {
+    
+  }
+}
+        // Vetores ativos de TI
+cadeia ativos[3] = {"Notebooks", "Monitores", "Teclados"}
+        // Matriz:
+        // Coluna 0 = Quantidade Atual
+        // Coluna 1 = Quantidade Mínima
+        inteiro estoque[3][2] = {
+            {5, 10},   // Notebooks - abaixo da quantidade mínima
+            {15, 10},  // Monitores
+            {20, 15}   // Teclados
