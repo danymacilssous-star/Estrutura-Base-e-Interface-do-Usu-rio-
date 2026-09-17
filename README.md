@@ -1,1 +1,0 @@
-# Estrutura-Base-e-Interface-do-Usu-rio-
