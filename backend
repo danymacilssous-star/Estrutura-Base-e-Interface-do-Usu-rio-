@@ -1,0 +1,32 @@
+programa
+{
+    funcao inicio()
+    {
+        cadeia equipamentos[3] = {"Notebooks", "Monitores", "Teclados"}
+
+        inteiro quantidades[3][2] = {
+            {5, 10},
+            {15, 10},
+            {8, 12}
+        }
+
+        inteiro i
+
+        escreva("RELATORIO DE ESTOQUE DE TI\n\n")
+
+        para (i = 0; i < 3; i++)
+        {
+            escreva("ID do equipamento: ", i, "\n")
+            escreva("Nome: ", equipamentos[i], "\n")
+            escreva("Quantidade Atual: ", quantidades[i][0], "\n")
+            escreva("Quantidade Minima: ", quantidades[i][1], "\n")
+
+            se (quantidades[i][0] < quantidades[i][1])
+            {
+                escreva("Estoque critico! Necessario abrir chamado de compra.\n")
+            }
+
+            escreva("\n")
+        }
+    }
+}
