@@ -1,0 +1,45 @@
+programa {
+  funcao inicio() {
+    
+  }
+}
+        // Vetores ativos de TI
+cadeia ativos[3] = {"Notebooks", "Monitores", "Teclados"}
+        // Matriz:
+        // Coluna 0 = Quantidade Atual
+        // Coluna 1 = Quantidade Mínima
+        inteiro estoque[3][2] = {
+            {5, 10},   // Notebooks - abaixo da quantidade mínima
+            {15, 10},  // Monitores
+            {20, 15}   // Teclados
+        inteiro opcao = 0
+
+        // Mantém o sistema funcionando até escolher a opção 3
+        enquanto (opcao != 3)
+        {
+            escreva("\n===== CONTROLE DE ATIVOS DE TI =====\n")
+            escreva("1 - Emitir Relatório\n")
+            escreva("2 - Registrar Recebimento\n")
+            escreva("3 - Encerrar Sistema\n")
+            escreva("Escolha uma opção: ")
+            leia(opcao)
+            escolha (opcao)
+            {
+                caso 1:
+                    escreva("\nLógica do relatório entrará aqui.\n")
+                    pare
+ 
+                caso 2:
+                    escreva("\nLógica do recebimento entrará aqui.\n")
+                    pare
+ 
+                caso 3:
+                    escreva("\nSistema encerrado.\n")
+                    pare
+ 
+                caso contrario:
+                    escreva("\nOpção inválida! Digite 1, 2 ou 3.\n")
+            }
+        }
+    }
+}
